@@ -4,6 +4,10 @@ You can use the [editor on GitHub](https://github.com/pimp50/pimp50page/edit/mai
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Avatar
+
+![p1380861740](imgs/p1380861740.webp)
+
 ### Markdown
 
 https://www.cnblogs.com/afei688/p/16610677.html
