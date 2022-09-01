@@ -1,12 +1,12 @@
-## 心愿
+# 心愿
 
 
 
-<img src="imgs/p1380861740.webp" alt="p1380861740" style="zoom:50%;" />
+<img src="./scr/imgs/p1380861740.webp" alt="p1380861740" style="zoom:50%;" />
 
 
 
-# [心愿](https://www.kawabangga.com/wish)
+## [心愿](https://www.kawabangga.com/wish)
 
 Posted on 2022年9月4日 by [laixintao](https://www.kawabangga.com/posts/author/laixintao)
 
@@ -191,3 +191,9 @@ Posted on 2022年9月4日 by [laixintao](https://www.kawabangga.com/posts/author
 - 《中级财务会计学》，刘兵 等，2011年第二版，山东人民出版社
 - 《主管会计操作实务》张家伦 等，首都经济贸易大学出版社
 - 《Accounting》，清华大学出版社
+
+
+
+# Boogie working out 
+
+<video src="scr/videos/Boogie working out.mp4"></video>
