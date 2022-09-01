@@ -8,6 +8,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ![p1380861740](imgs/p1380861740.webp)
 
+
+
+<video src="videos/Boogie working out.mp4"></video>
+
 ### Markdown
 
 https://www.cnblogs.com/afei688/p/16610677.html
