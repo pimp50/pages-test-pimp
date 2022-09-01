@@ -101,7 +101,7 @@ Posted on 2022年9月4日 by [laixintao](https://www.kawabangga.com/posts/author
 - 嗯……说起低龄化
 - 其实好玩就行了啊！游戏性游戏性游戏性！
 
-## ~~[Kindle paperwhite3](https://www.amazon.cn/gp/product/B00QJDOLIO/ref=cngwv2_slideshow_100934752?pf_rd_p=254965592&pf_rd_s=center-1&pf_rd_t=101&pf_rd_i=899254051&pf_rd_m=A1AJ19PSB66TGU&pf_rd_r=1M96QRF72W4N3E3V4CY0)~~
+## ~~[Kindle paperwhite4](https://www.amazon.cn/gp/product/B00QJDOLIO/ref=cngwv2_slideshow_100934752?pf_rd_p=254965592&pf_rd_s=center-1&pf_rd_t=101&pf_rd_i=899254051&pf_rd_m=A1AJ19PSB66TGU&pf_rd_r=1M96QRF72W4N3E3V4CY0)~~
 
 [![4cfe60afc9d9efb92248e16e916b68e3](https://www.kawabangga.com/wp-content/uploads/2015/09/4cfe60afc9d9efb92248e16e916b68e3.jpeg)](https://www.kawabangga.com/wp-content/uploads/2015/09/4cfe60afc9d9efb92248e16e916b68e3.jpeg)
 
@@ -183,11 +183,11 @@ Posted on 2022年9月4日 by [laixintao](https://www.kawabangga.com/posts/author
 
 ### 一些会计类的书
 
-《批判性思维教程》谷振诣 等，2006年第一版，北京大学出版社
-《普通逻辑》，2011年第五版，上海人民出版社
-《mamagerment》Stephen P Robbins 等,11th Edition,中国人民大学出版社
-《Accouting F7 Financial Reporting (INT&UK)》,BPP Learning Media.
-《中级财务会计学》，葛家澍 等，中国人民大学出版社
-《中级财务会计学》，刘兵 等，2011年第二版，山东人民出版社
-《主管会计操作实务》张家伦 等，首都经济贸易大学出版社
-《Accounting》，清华大学出版社
+- 《批判性思维教程》谷振诣 等，2006年第一版，北京大学出版社
+- 《普通逻辑》，2011年第五版，上海人民出版社
+- 《mamagerment》Stephen P Robbins 等,11th Edition,中国人民大学出版社
+- 《Accouting F7 Financial Reporting (INT&UK)》,BPP Learning Media.
+- 《中级财务会计学》，葛家澍 等，中国人民大学出版社
+- 《中级财务会计学》，刘兵 等，2011年第二版，山东人民出版社
+- 《主管会计操作实务》张家伦 等，首都经济贸易大学出版社
+- 《Accounting》，清华大学出版社
