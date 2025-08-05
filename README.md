@@ -2,8 +2,6 @@
 
 
 
-<img src="./scr/imgs/p1380861740.webp" alt="p1380861740" style="zoom:50%;" />
-
 
 
 ## [心愿](https://www.kawabangga.com/wish)
