@@ -18,13 +18,14 @@
         .countdown-box {
             font-family: "Microsoft YaHei", sans-serif;
             font-size: 24px;
-            color: #333;
-            background-color: #f0f8ff;
+            color: #ffffff;
+            background-color: #191919;
             padding: 20px;
             border-radius: 8px;
             text-align: center;
-            border: 1px solid #d1e7dd;
+            border: 1px solid #191919;
             display: inline-block; /* 让背景框适应文字宽度 */
+            /* padding-left: 500px */
         }
         
         .highlight-number {
@@ -33,6 +34,26 @@
             font-size: 30px;
             margin: 0 5px;
         }
+
+        .highlight-name {
+            color: #eb230d; /* 红色高亮数字 */
+            font-weight: bold;
+            font-size: 32px;
+            margin: 0 5px;
+        }
+
+        .reset-link,
+        .reset-link:link,
+        .reset-link:visited,
+        .reset-link:hover,
+        .reset-link:active {
+            /* 将颜色设为您想要的颜色，例如保持与父元素相同的颜色 */
+            color: inherit; 
+            /* 也可以直接指定颜色值，例如：color: #333333; */
+            
+            /* 移除下划线 */
+            text-decoration:none;
+      }
     </style>
   <title>sws888</title>
   <link rel="shortcut icon" href="./scr/ico/SpongeBob.ico" type="image/x-icon" />
@@ -47,6 +68,7 @@
     <script>
         // 1. 设定目标日期：2026年1月10日
         const targetDate = new Date('2026-01-05T00:00:00').getTime();
+        const examTargetDate = new Date('2026-05-16T00:00:00').getTime();
 
         // 2. 定义更新倒计时的函数
         function updateCountdown() {
@@ -55,21 +77,26 @@
             
             // 计算时间差（毫秒）
             const distance = targetDate - now;
+            const examdistance = examTargetDate - now;
 
             // 3. 计算剩余天数
             // Math.ceil 向上取整，这样即使只剩0.1天也会显示“还有1天”，更符合人的直觉
             const days = Math.ceil(distance / (1000 * 60 * 60 * 24));
+            const examdays = Math.ceil(examdistance / (1000 * 60 * 60 * 24));
 
             // 获取显示的元素
             const displayElement = document.getElementById("countdown-display");
 
             // 4. 根据时间差显示不同内容
-            if (distance < 0) {
+            if (-10 < distance < 0) {
                 // 如果日期已经过了
                 displayElement.innerHTML = "报名已经开始！";
             } else {
                 // 显示倒计时
-                displayElement.innerHTML = `距离报名日还有 <span class="highlight-number">${days}</span> 天`;
+                displayElement.innerHTML = `距离<span class="highlight-name"><a href="https://ausm.mof.gov.cn/index/" class="reset-link">会计</a></span>
+                报名日还有 <span class="highlight-number">${days}</span> 天
+                 <span style="padding-left: 50px;">&nbsp</span> 
+                 距离考试还有 <span class="highlight-number">${examdays}</span> 天`;
             }
         }
 
@@ -92,22 +119,8 @@
         <br/>
         <br/>
         <h1 id='imgedit'><span><a id="logo" href=".\scr\template\navigation.html"  title="navigation" target="_blank">You > Them.</a></span></h2>
-        
       <br>
       <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-
-      
-
-
 
     </div>
   </div>
