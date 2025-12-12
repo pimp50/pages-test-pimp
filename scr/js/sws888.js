@@ -69,6 +69,7 @@ function updateCountdown() {
         距离<span class="highlight-name"><a href="https://ausm.mof.gov.cn/index/" class="reset-link">会计</a></span>
         报名日还有 <span class="highlight-number">${registerDays}</span> 天<br>
         距离考试还有 <span class="highlight-number">${integerPart}</span><span class="highlight-number-decimalPart">.${decimalPart}</span> 天
+        </br>
         &nbsp=<span class="highlight-number-decimalPart">${examHours}</span>小时
         `;
   }
