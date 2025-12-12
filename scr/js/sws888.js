@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
   calculateDaysToTarget(); // 执行天数计算
   updateCountdown();       // 执行倒计时更新
   // 可选：开启倒计时实时刷新（1秒更新一次）
-  setInterval(updateCountdown, 200);
+  setInterval(updateCountdown, 100);
 });
 
 // 兼容旧浏览器的兜底（可选）
