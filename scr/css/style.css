@@ -1698,12 +1698,12 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .countdown-box {
   font-family: "Microsoft YaHei", sans-serif;
   font-size: 18px;
-  color: #ffffff;
-  background-color: #191919;
+  /* color: #ffffff; */
+  /* background-color: #191919; */
   padding: 20px;
   border-radius: 8px;
   text-align: center;
-  border: 1px solid #191919;
+  /* border: 1px solid #191919; */
   display: block; /* 让背景框适应文字宽度 */
   position: relative;
   margin: 0px auto;
