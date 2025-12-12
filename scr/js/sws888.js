@@ -69,6 +69,7 @@ function updateCountdown() {
         距离<span class="highlight-name"><a href="https://ausm.mof.gov.cn/index/" class="reset-link">会计</a></span>
         报名日还有 <span class="highlight-number">${registerDays}</span> 天<br>
         距离考试还有 <span class="highlight-number">${integerPart}</span><span class="highlight-number-decimalPart">.${decimalPart}</span> 天
+        </br>
         &nbsp=<span class="highlight-number-decimalPart">${examHours}</span>小时
         `;
   }
@@ -111,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
   calculateDaysToTarget(); // 执行天数计算
   updateCountdown();       // 执行倒计时更新
   // 可选：开启倒计时实时刷新（1秒更新一次）
-  // setInterval(updateCountdown, 1000);
+  setInterval(updateCountdown, 200);
 });
 
 // 兼容旧浏览器的兜底（可选）

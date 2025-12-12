@@ -1704,12 +1704,16 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   border-radius: 8px;
   text-align: center;
   border: 1px solid #191919;
-  display: inline-block; /* 让背景框适应文字宽度 */
+  display: block; /* 让背景框适应文字宽度 */
   position: relative;
   margin: 0px auto;
   padding-left: 20px;
   padding-right: 20px;
   max-width: 860px;
+}
+
+#countdown-display {
+  text-align: center;
 }
 
 .highlight-number {
