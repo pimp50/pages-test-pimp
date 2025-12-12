@@ -33,11 +33,10 @@ function updateCountdown() {
   const registerDays = Math.ceil(registerDistance / (1000 * 60 * 60 * 24));
   const examDays = Math.ceil(examDistance / (1000 * 60 * 60 * 24));
   const rawDays = examDistance / (1000 * 60 * 60 * 24); 
-    console.log("原始天数：", rawDays); // 输出：~14.288980208333334
-    console.log(examDays)
+    // console.log(examDays)
     // 2. 保留六位小数
     const daysWith6Decimal = Math.round(rawDays * 1000000) / 1000000; 
-    console.log("保留六位小数：", daysWith6Decimal); // 输出：14.289
+    // console.log("保留六位小数：", daysWith6Decimal); // 输出：14.289
 
     // 3. 拆分整数和四位小数部分（精准版）
     const fixedStr = daysWith6Decimal.toFixed(6); // "14.2890"
@@ -45,7 +44,7 @@ function updateCountdown() {
 
     const integerPart = Number(integerStr); // 整数部分：14
     const decimalPart = Number(decimalStr); // 小数部分：2890
-    console.log("小数部分：", decimalPart)
+    // console.log("小数部分：", decimalPart)
   const examHours = Math.round((integerPart*24 + decimalPart/1000000*24) * 10000) / 10000
 
 
@@ -60,7 +59,7 @@ function updateCountdown() {
       <span style="padding-left: 50px;">&nbsp</span></br> 
       距离考试还有 <span class="highlight-number">${integerPart}</span>
       <span class="highlight-number-decimalPart">.${decimalPart}</span> 天
-      <span class="highlight-number-decimalPart">=&nbsp${examHours}</span> 小时
+      <span class="highlight-number-decimalPart">=&nbsp${examHours.toFixed(4)}</span> 小时
       `;
   } else if (integerPart < 0) {
     displayEl.innerHTML = `<span class="highlight-name">考试已结束！</span>`
@@ -70,7 +69,7 @@ function updateCountdown() {
         报名日还有 <span class="highlight-number">${registerDays}</span> 天<br>
         距离考试还有 <span class="highlight-number">${integerPart}</span><span class="highlight-number-decimalPart">.${decimalPart}</span> 天
         </br>
-        &nbsp=<span class="highlight-number-decimalPart">${examHours}</span>小时
+        &nbsp=<span class="highlight-number-decimalPart">${examHours.toFixed(4)}</span>小时
         `;
   }
 }
@@ -111,7 +110,7 @@ setInterval(updateTime, 1000);
 document.addEventListener('DOMContentLoaded', function() {
   calculateDaysToTarget(); // 执行天数计算
   updateCountdown();       // 执行倒计时更新
-  // 可选：开启倒计时实时刷新（1秒更新一次）
+  // 可选：开启倒计时实时刷新（0.1秒更新一次）
   setInterval(updateCountdown, 100);
 });
 
