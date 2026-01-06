@@ -21,7 +21,7 @@ function updateCountdown() {
   // 1. 设定目标日期（报名/考试）
 //   const registerTargetDate = new Date('2025-12-11T00:00:00').getTime(); // 重命名：registerTargetDate
 //   const examTargetDate = new Date('2025-12-11T00:00:00').getTime();
-    const registerTargetDate = new Date('2026-01-05T00:00:00').getTime(); // 重命名：registerTargetDate
+    const registerTargetDate = new Date('2026-01-12T10:00:00').getTime(); // 重命名：registerTargetDate
     const examTargetDate = new Date('2026-05-16T00:00:00').getTime();
   
   // 2. 获取当前时间
@@ -110,6 +110,7 @@ setInterval(updateTime, 1000);
 document.addEventListener('DOMContentLoaded', function() {
   calculateDaysToTarget(); // 执行天数计算
   updateCountdown();       // 执行倒计时更新
+  chrismasCountdown();
   // 可选：开启倒计时实时刷新（0.1秒更新一次）
   setInterval(updateCountdown, 100);
 });
