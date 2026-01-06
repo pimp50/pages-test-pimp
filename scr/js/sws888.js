@@ -2,7 +2,7 @@
 // 函数1：计算距离2025年12月12日的天数（重命名变量为 dayCalcTargetDate）
 function calculateDaysToTarget() {
   // 1. 定义目标日期（2025年12月12日）：月份0-11，12月对应11
-  const dayCalcTargetDate = new Date(2025, 11, 13);
+  const dayCalcTargetDate = new Date(2025, 11, 11);
   // 2. 获取当前日期（重置时分秒，避免当天时间误差）
   const now = new Date();
   now.setHours(0, 0, 0, 0);
